@@ -112,6 +112,68 @@
       ],
       "ast": [
         "aggregate/ast/775f6a1ba62e7d35a1fac76e64c61d9d4687b5f2/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/775f6a1ba62e7d35a1fac76e64c61d9d4687b5f2.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "cfg-if",
+          "ecosystem": "CARGO",
+          "version": "1.0",
+          "githubOrg": "rust-lang",
+          "githubRepo": "cfg-if",
+          "githubUrl": "https://github.com/rust-lang/cfg-if",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rustc-demangle",
+          "ecosystem": "CARGO",
+          "version": "0.1.24",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rustc-demangle",
+          "githubCommit": "d43f6d58562319e93a492ac8ceb3fe258beefaf4",
+          "githubTag": "0.1.24",
+          "githubUrl": "https://github.com/rust-lang/rustc-demangle",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde",
+          "ecosystem": "CARGO",
+          "version": "1.0",
+          "githubOrg": "serde-rs",
+          "githubRepo": "serde",
+          "githubUrl": "https://github.com/serde-rs/serde",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "cpp_demangle",
+          "ecosystem": "CARGO",
+          "version": "0.5.0",
+          "githubOrg": "gimli-rs",
+          "githubRepo": "cpp_demangle",
+          "githubCommit": "e21f3bd4896d12acffcd630a7b1cfe3568ec0b4d",
+          "githubTag": "0.5.0",
+          "githubUrl": "https://github.com/gimli-rs/cpp_demangle",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "libloading",
+          "ecosystem": "CARGO",
+          "version": "0.8",
+          "githubOrg": "nagisa",
+          "githubRepo": "rust_libloading",
+          "githubUrl": "https://github.com/nagisa/rust_libloading/",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "cc",
+          "ecosystem": "CARGO",
+          "version": "1.1.22",
+          "githubOrg": "rust-lang",
+          "githubRepo": "cc-rs",
+          "githubUrl": "https://github.com/rust-lang/cc-rs",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cc-1.1.22/src/lib.rs"
+        }
       ]
     }
   ],
