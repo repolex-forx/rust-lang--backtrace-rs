@@ -1,0 +1,11 @@
+{
+  "org": "rust-lang",
+  "repo": "backtrace-rs",
+  "versions": [
+    {
+      "commit": "775f6a1ba62e7d35a1fac76e64c61d9d4687b5f2",
+      "tag": "backtrace-v0.3.76",
+      "parsed_at": "2026-11-22T09:22:15.045904+00:00"
+    }
+  ]
+}
